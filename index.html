@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <script type="type/javascript" src="java.js"></script>
+    <title>Toy Hap</title>
+</head>
+
+<body>
+    <header class="encap">
+        <div class="titulo">
+            <h1>Mundo de juguetes</h1>
+        </div>
+        <nav class="menu">
+            <a href="#Nosotros">Nosotros</a>
+            <a href="#Productos">Productos</a>
+            <a href="#Articulos">Articulos</a>
+            <a href="#Contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <h2 id="Nosotros">Nosotros</h2>
+    <section class="content-Nosotros">
+        <div class="contentN">
+            <img src="mejorP.png" alt="Mejor precio" width="100px" height="100px">
+            <h3>Mejores precios</h3>
+            <p>En nuestra jugueteria contamos con los mejores precios para todas la variedades de juegos
+                ademas, que contamos con ofertas especiales.
+            </p>
+        </div>
+        <div class="contentN">
+            <img src="calidad.png" alt="calidad" width="100px" height="100px">
+            <h3>Calidad</h3>
+            <p>Nuestros productos son importados de empresas distribuidoras originales, lo cual ofecemos 
+                calidad para cada uno de nuestros productos.
+            </p>
+        </div>
+        <div class="contentN">
+            <img src="garantia.png" alt="garantia" width="100px" height="100px">
+            <h3>Garantia</h3>
+            <p>Contamos con la mejor garantia para cada uno de nuestros productos, de hasta por 1 año.</p>
+        </div>
+    </section>
+
+    <h2 id="Productos">Nuestros Productos</h2>
+    <main class="content-main">
+
+        <div class="ContentM">
+            <img src="https://cnnespanol.cnn.com/wp-content/uploads/2020/04/200421100635-underscored-best-board-games-lead.jpg?quality=100&strip=info"
+                alt="juegos de mesa" width="350px" height="250px">>
+            <P>JUEGOS DE MESA</P>
+            <p>Para jugar y divertirse con toda la familia</p>
+        </div>
+        <div class="ContentM">
+            <img src="https://bbmundo.com/wp-content/uploads/2014/12/juguetes-edad1.jpg" alt="juegos de mesa"
+                width="350px" height="250px">>
+            <p>PARA TU NIÑO</p>
+            <p>Un mundo de aventuras, emiciones e imaginación para tu niño</p>
+        </div>
+        <div class="ContentM">
+            <img src="https://imagenes.elpais.com/resizer/tjWkCiv7ev28D_uHAuce-MLHHig=/1960x1470/cloudfront-eu-central-1.images.arcpublishing.com/prisa/UVTMBZ5CIRHRHNFPPJZRJEZXPA.jpg"
+                alt="juegos de mesa" width="350px" height="250px">
+            <p>PARA TU NIÑA</p>
+            <p>Un mundo de fantasia y diversion para tu niña</p>
+        </div>
+    </main>
+
+    <h2 id="Articulos">Articulos</h2>
+    <section class="Art">
+        <div class="contJ">
+            <div class="Juegos">
+                <article>
+                    <img src="hombre.png" alt="infantiles" width="50px" height="50px">
+                    <p>
+                        Los juegos infantiles <br>
+                        Escrito: 15/11/2020 por: "Carlos Felipe" gran parte del contenido y significado
+                        del juego infantil esta constituido por las actividades lódicas en
+                        las que el niño representaalgun papel e imite aquel aspecto mas significativo
+                        de las actividaes adutas y de su contactocon ellas.
+                    </p>
+                </article>
+            </div>
+
+            <div class="Juegos">
+                <article>
+                    <img src="nina.png" alt="infantiles" width="50px" height="50px">
+                    
+                    <p> El juego en la infancia <br>
+                        Escrito: 15/11/2020 por: "Marta Diaz" tienen una gran cantidad de productos de muy buena calidad
+                        La persona que me atendio fue muy cordial y me sugerio varios productos
+                        de acuerdo a la edad de mis hijos.
+                    </p>
+                </article>
+            </div>
+        </div>
+        <div class="Testimonio">
+            <article>                
+                <p> Testimonios <br>
+                    "Tienen una gran variedad de productos de muy buena calidad. La persona que me atendio fue muy cordial y me sugirio varios produtos de acuerdo a la
+                    edad de mis hijos" Cesar Pedraza.
+                </p>
+            </article>
+        </div>
+    </section>
+
+    <h2 id="Contacto">Contacto</h2>
+    <footer class="content-cop">
+        <div class="content">
+            <h3>Contacto</h3>
+            <p>+51 999888777</p>
+        </div>
+        <div class="content">
+            <h3>Nuestras tiendas</h3>
+            <p>Lima centro 852</p>
+            <p>Lima norte 1085</p>
+            <p>Lima sur 652</p>
+        </div>
+
+        <div class="content">
+            <h3>Libro de reclamaciones</h3>
+        </div>
+    </footer>
+    <p>@Copyright</p>
+</body>
+<Style>
+    .content-cop{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /*articulos*/
+    .Art {
+        display: flex;        
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contJ {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Juegos article{
+        display: flex;
+        align-items: center;
+        width: 50vw;
+        padding: 15px;
+    }
+
+    .Juegos article p{
+        font-size: 20px;
+    }
+
+    .Juegos article img {
+        margin-right: 15px;
+    }
+
+    .Testimonio {      
+    }
+
+    .Testimonio p {
+        font-size: 20px;
+        padding: 15px;
+    }
+    /*Fin de articulos*/
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: rgb(196, 181, 173);
+    }
+
+    .encap {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-image: url();
+        background-size: 20%;
+    }
+
+    .menu a {
+        background-color: rgb(238, 166, 98);
+        padding: 3px;
+        border-radius: 23px;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+    }
+
+    a:hover {
+        background-color: rgb(255, 163, 77);
+
+    }
+
+
+
+    h2 {
+        text-align: center;
+    }
+
+    .content-Nosotros {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 10vw;
+    }
+
+    .contentN {
+        text-align: center;
+        width: 250px;
+        max-width: 400px;
+        padding: 1vw;
+    }
+
+    .contentN h3 {
+        text-align: center;
+    }
+
+    .content-main {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: calc(10vw/3vw);
+    }
+
+    .ContentM {
+        text-align: center;
+        width: 400px;
+        max-width: 400px;
+        padding: 1vw;
+    }
+
+    .content-cop {
+        display: flex;
+        justify-content: center;
+        gap: 25vw;
+    }
+
+    .content {
+        text-align: center;
+    }
+ 
+</Style>
+
+</html>
